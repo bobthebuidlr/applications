@@ -1,0 +1,38 @@
+.player1Piece {
+    width: 46px;
+    height: 46px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: radial-gradient( rgb(255, 255, 255), rgb(216, 216, 216));
+    margin: auto;
+
+}
+
+.player2Piece {
+    width: 46px;
+    height: 46px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: radial-gradient( rgb(75, 75, 75), rgb(0, 0, 0));
+    margin: auto;
+
+}
+
+td {
+    border: 1px solid black; 
+    height: 50px;
+    width:50px;
+}
+
+.selected {
+    background-color: rgba(82, 56, 0, 0.701);
+    opacity: 0.65;
+}
+
+.black {
+    background-color: rgba(82, 56, 0, 0.701);
+}
+
+table {
+    border: 15px solid rgb(58, 38, 7);
+}
